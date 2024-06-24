@@ -14,6 +14,7 @@ SeleniumCrawl/
 │   ├── read_menu_titles.py
 │   └── utils/
 │       └── selenium_setup.py
+
 Yêu cầu
 Docker
 Docker Compose
