@@ -18,12 +18,15 @@ SeleniumCrawl/
 Yêu cầu
 Docker
 Docker Compose
+
 Hướng dẫn thiết lập
+
 1. Clone Repository
 bash
 Copy code
 git clone https://github.com/Nguyen-Newcastle/24hSeleniumCrawl.git
 cd SeleniumCrawl
+
 2. Build và Chạy các Docker Containers
 Đảm bảo rằng Docker và Docker Compose đã được cài đặt trên máy của bạn. Sau đó, thực hiện lệnh sau:
 
@@ -36,6 +39,7 @@ Build Docker image cho dự án.
 Thiết lập Selenium Hub.
 Thiết lập một Selenium Node với Chrome.
 Chạy các script để trích xuất và hiển thị dữ liệu bài viết.
+
 3. Các thành phần của dự án
 Dockerfile
 Dockerfile thiết lập môi trường để chạy các script Python. Nó sử dụng một image Python gọn nhẹ, cài đặt các gói cần thiết từ requirements.txt, và thiết lập lệnh mặc định.
@@ -49,6 +53,7 @@ latest-articles-on-sections: Dịch vụ chạy script để trích xuất các 
 highlighted-articles: Dịch vụ chạy script để đọc các bài viết nổi bật được hiển thị trên trang chính của trang web 24h.com.vn.
 
 4. Mô tả các script
+
 extract_latest_articles_on_sections.py
 Script này thu thập các bài viết mới nhất từ các mục khác nhau của trang web 24h.com.vn.
 
